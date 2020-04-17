@@ -1,0 +1,367 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ASasitharan_Lab6
+</name>
+</assembly>
+<members>
+<member name="T:ASasitharan_Lab6.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ASasitharan_Lab6.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ASasitharan_Lab6.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:ASasitharan_Lab6.frmAverageUnitsShipped.Button4_Click(System.Object,System.EventArgs)">
+ <summary>
+ The exit button closes the application when clicked
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmAverageUnitsShipped.frmAverageUnitsShipped_Load(System.Object,System.EventArgs)">
+ <summary>
+ when the form loads the textbox and output label arrays are created and the employee 1 label is bolded
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmAverageUnitsShipped.btnEnter_Click(System.Object,System.EventArgs)">
+ <summary>
+ The enter button that validates and enters the users input as well as calculates the employee and total average
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmAverageUnitsShipped.ClearControls(System.Windows.Forms.Control[])">
+ <summary>
+ this function clears the textboxes and labels when it is called
+ </summary>
+ <param name="controlArray"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmAverageUnitsShipped.SetDefaults">
+ <summary>
+ This function sets all of the textboxes and output labels to empty and enables the calculate button along with the textboxes
+ </summary>
+</member>
+<member name="M:ASasitharan_Lab6.frmAverageUnitsShipped.btnReset_Click(System.Object,System.EventArgs)">
+ <summary>
+ The reset button resets the form to its defualt state by clearing textboxes and labels
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.Car.#ctor">
+ <summary>
+ Default constructor for the car class maintains a class count variable
+ </summary>
+</member>
+<member name="M:ASasitharan_Lab6.Car.#ctor(System.String,System.String,System.Int32,System.Decimal,System.Boolean)">
+ <summary>
+ 
+ </summary>
+ <param name="makeValue"></param>
+ <param name="modelValue"></param>
+ <param name="yearValue"></param>
+ <param name="priceValue"></param>
+ <param name="statusValue"></param>
+</member>
+<member name="P:ASasitharan_Lab6.Car.Count">
+ <summary>
+ Returns the number of car Objects
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:ASasitharan_Lab6.Car.Id">
+ <summary>
+ Gets a cars ID number
+ </summary>
+ <returns>A cars identification number</returns>
+</member>
+<member name="P:ASasitharan_Lab6.Car.Make">
+ <summary>
+ Gets and sets a car objects manufacturer
+ </summary>
+ <returns>A cars manufacturer as a string</returns>
+</member>
+<member name="P:ASasitharan_Lab6.Car.Model">
+ <summary>
+ Gets and sets a car objects model
+ </summary>
+ <returns></returns>
+</member>
+<member name="P:ASasitharan_Lab6.Car.Year">
+ <summary>
+ Gets and sets a car objects year of production
+ </summary>
+ <returns>A cars Year as a string</returns>
+</member>
+<member name="P:ASasitharan_Lab6.Car.Price">
+ <summary>
+ Gets and sets a car objects Price
+ </summary>
+ <returns>A cars Price as a Decimal</returns>
+</member>
+<member name="P:ASasitharan_Lab6.Car.IsNew">
+ <summary>
+ Gets and sets a car objects manufacturer
+ </summary>
+ <returns>A cars manufacturer as a string</returns>
+</member>
+<member name="M:ASasitharan_Lab6.Car.GetCarData">
+ <summary>
+ Returns a string describing the car object
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ASasitharan_Lab6.frmCarInventory.Form1_Load(System.Object,System.EventArgs)">
+ <summary>
+ When the form loads set the numeric up down's value to the max value
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmCarInventory.btnExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ This button closes the application when clicked
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmCarInventory.btnEnter_Click(System.Object,System.EventArgs)">
+ <summary>
+ Checks if form inputs are valid and then adds them to the listview in a new car object or edits previous data entries when pressed
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmCarInventory.lvwCars_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ event handler that is used when a character in the list is selected
+ </summary>
+</member>
+<member name="M:ASasitharan_Lab6.frmCarInventory.lvwCars_ItemCheck(System.Object,System.Windows.Forms.ItemCheckEventArgs)">
+ <summary>
+ This procedure stops an entry's checkbox from being checked in the listview
+ </summary>
+</member>
+<member name="M:ASasitharan_Lab6.frmCarInventory.SetDefaults">
+ <summary>
+ This procedure sets the form controls to their defualt state and call the populate list procedure
+ </summary>
+</member>
+<member name="M:ASasitharan_Lab6.frmCarInventory.IsValid">
+ <summary>
+ This function checks the inputs and displays error messages if input is invalid
+ </summary>
+ <returns></returns>
+</member>
+<member name="M:ASasitharan_Lab6.frmCarInventory.PopulateList">
+ <summary>
+ This procedure populates the listview with the inputted car data
+ </summary>
+</member>
+<member name="M:ASasitharan_Lab6.frmCarInventory.btnReset_Click(System.Object,System.EventArgs)">
+ <summary>
+ This button sets the form to its default state when pressed
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmMain.mnuEditCopy_Click(System.Object,System.EventArgs)">
+ <summary>
+  Puts the selected text into the clipboard
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmMain.ShowNewTextEditor(System.Object,System.EventArgs)">
+ <summary>
+ Creates a new instance of frmTextEditor
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmMain.mnuEditCut_Click(System.Object,System.EventArgs)">
+ <summary>
+ Puts the selected text into the clipboard and removes the selected text from the text editor
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmMain.mnuEditPaste_Click(System.Object,System.EventArgs)">
+ <summary>
+ Prints out the text stored in the clipboard
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmMain.mnuFileSave_Click(System.Object,System.EventArgs)">
+ <summary>
+  Saves the users file and opens the saveFileDialog if the file does not exist
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmMain.mnuFileOpen_Click(System.Object,System.EventArgs)">
+ <summary>
+ Opens the user's file using the open file dialog
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmMain.mnuFileSaveAs_Click(System.Object,System.EventArgs)">
+ <summary>
+  Code for save as button that opens the save file dialog to save and rename the text file
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmMain.mnuFileClose_Click(System.Object,System.EventArgs)">
+ <summary>
+ Closes the active instance of frmTextEditor
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmTextEditor.Form1_Load(System.Object,System.EventArgs)">
+ <summary>
+ Sets the title of the form when the form loads
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmTextEditor.mnuExit_Click(System.Object,System.EventArgs)">
+ <summary>
+ Exits the application
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmTextEditor.mnuSave_Click(System.Object,System.EventArgs)">
+ <summary>
+ calls the FileSave function to save a file
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmTextEditor.FileSave">
+ <summary>
+ Saves the users file and opens the saveFileDialog if the file does not exist
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmTextEditor.mnuOpen_Click(System.Object,System.EventArgs)">
+ <summary>
+ Calls the FileOpen function to open a file
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmTextEditor.FileOpen">
+ <summary>
+ Code for the open button that opens the file dialog to select and open the text file in the editor
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmTextEditor.mnuSaveAs_Click(System.Object,System.EventArgs)">
+ <summary>
+ Calls the FileSaveAs function 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmTextEditor.FileSaveAs">
+ <summary>
+ Code for save as button that opens the save file dialog to save and rename the text file
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmTextEditor.mnuEditCopy_Click(System.Object,System.EventArgs)">
+ <summary>
+ calls the EditCopy function to copy text to the clipboard
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmTextEditor.EditCopy">
+ <summary>
+  Puts the selected text into the clipboard
+ </summary>
+</member>
+<member name="M:ASasitharan_Lab6.frmTextEditor.mnuEditPaste_Click(System.Object,System.EventArgs)">
+ <summary>
+ calls the edit paste function
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmTextEditor.EditPaste">
+ <summary>
+ Gets the text in the clipboard and outputs it in the text editor
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmTextEditor.mnuEditCut_Click(System.Object,System.EventArgs)">
+ <summary>
+ calls the EditCut function
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmTextEditor.EditCut">
+ <summary>
+ Puts the selected text into the clipboard and removes the selected text from the text editor
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmTextEditor.mnuNew_Click(System.Object,System.EventArgs)">
+ <summary>
+ Creates a new text file by changing the file name to empty and clearing the text editor
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmTextEditor.mnuClose_Click(System.Object,System.EventArgs)">
+ <summary>
+ closes a open text file and disables the text box
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmTextEditor.AboutToolStripMenuItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ Displays a message box that shows details about the lab
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmTextEditor.txtTextEditor_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+ Sets a boolean to true if text has been edited in the file
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:ASasitharan_Lab6.frmTextEditor.ConfirmClose">
+ <summary>
+ function that displays a message box if text in the file has been edited asking the user if they want to close the file without saving
+ </summary>
+</member>
+</members>
+</doc>
